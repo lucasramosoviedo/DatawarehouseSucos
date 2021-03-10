@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DatawarehouseSucos", "DatawarehouseSucos.sqlproj", "{36FAF5E1-CEF7-4610-95C2-46B47128BDF1}"
 EndProject
-Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "CargaDatawarehouse", "..\CargaDatawarehouse\CargaDatawarehouse.dtproj", "{B6AE69C9-3D17-4FDF-96AF-1F1B763D3ECD}"
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "OLAPSucos", "OLAPSucos\OLAPSucos.dwproj", "{5A16548C-2C0A-4946-9490-D47524891795}"
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "CargaDatawarehouse", "CargaDatawarehouse\CargaDatawarehouse.dtproj", "{C25471CC-03DC-42ED-AB8D-0BD25F08B108}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +25,21 @@ Global
 		{36FAF5E1-CEF7-4610-95C2-46B47128BDF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36FAF5E1-CEF7-4610-95C2-46B47128BDF1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{36FAF5E1-CEF7-4610-95C2-46B47128BDF1}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{B6AE69C9-3D17-4FDF-96AF-1F1B763D3ECD}.Debug|Any CPU.ActiveCfg = Development
-		{B6AE69C9-3D17-4FDF-96AF-1F1B763D3ECD}.Debug|Any CPU.Build.0 = Development
-		{B6AE69C9-3D17-4FDF-96AF-1F1B763D3ECD}.Development|Any CPU.ActiveCfg = Development
-		{B6AE69C9-3D17-4FDF-96AF-1F1B763D3ECD}.Development|Any CPU.Build.0 = Development
-		{B6AE69C9-3D17-4FDF-96AF-1F1B763D3ECD}.Release|Any CPU.ActiveCfg = Development
-		{B6AE69C9-3D17-4FDF-96AF-1F1B763D3ECD}.Release|Any CPU.Build.0 = Development
+		{5A16548C-2C0A-4946-9490-D47524891795}.Debug|Any CPU.ActiveCfg = Development
+		{5A16548C-2C0A-4946-9490-D47524891795}.Debug|Any CPU.Build.0 = Development
+		{5A16548C-2C0A-4946-9490-D47524891795}.Debug|Any CPU.Deploy.0 = Development
+		{5A16548C-2C0A-4946-9490-D47524891795}.Development|Any CPU.ActiveCfg = Development
+		{5A16548C-2C0A-4946-9490-D47524891795}.Development|Any CPU.Build.0 = Development
+		{5A16548C-2C0A-4946-9490-D47524891795}.Development|Any CPU.Deploy.0 = Development
+		{5A16548C-2C0A-4946-9490-D47524891795}.Release|Any CPU.ActiveCfg = Development
+		{5A16548C-2C0A-4946-9490-D47524891795}.Release|Any CPU.Build.0 = Development
+		{5A16548C-2C0A-4946-9490-D47524891795}.Release|Any CPU.Deploy.0 = Development
+		{C25471CC-03DC-42ED-AB8D-0BD25F08B108}.Debug|Any CPU.ActiveCfg = Development
+		{C25471CC-03DC-42ED-AB8D-0BD25F08B108}.Debug|Any CPU.Build.0 = Development
+		{C25471CC-03DC-42ED-AB8D-0BD25F08B108}.Development|Any CPU.ActiveCfg = Development
+		{C25471CC-03DC-42ED-AB8D-0BD25F08B108}.Development|Any CPU.Build.0 = Development
+		{C25471CC-03DC-42ED-AB8D-0BD25F08B108}.Release|Any CPU.ActiveCfg = Development
+		{C25471CC-03DC-42ED-AB8D-0BD25F08B108}.Release|Any CPU.Build.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
