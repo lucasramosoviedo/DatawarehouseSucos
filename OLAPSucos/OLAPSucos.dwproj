@@ -6,12 +6,40 @@
     <Name>OLAPSucos.database</Name>
     <FullPath>OLAPSucos.database</FullPath>
   </Database>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Fábrica.dim</Name>
+      <FullPath>Fábrica.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cliente.dim</Name>
+      <FullPath>Cliente.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Produto.dim</Name>
+      <FullPath>Produto.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Organizacional.dim</Name>
+      <FullPath>Organizacional.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Tempo.dim</Name>
+      <FullPath>Tempo.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>DW SUCOS.ds</Name>
       <FullPath>DW SUCOS.ds</FullPath>
     </ProjectItem>
   </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>DW SUCOS.dsv</Name>
+      <FullPath>DW SUCOS.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
