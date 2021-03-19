@@ -7,12 +7,12 @@
   DTS:CreatorName="DESKTOP-PF51TRA\luc_s"
   DTS:DTSID="{8FBCBF6B-7A47-4992-A1E8-9A23F5E0AB59}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="15.0.2000.152"
+  DTS:LastModifiedProductVersion="15.0.2000.157"
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="11"
-  DTS:VersionGUID="{D94DD5FF-3DDA-4BFA-95BB-4965CB21D2A6}">
+  DTS:VersionBuild="12"
+  DTS:VersionGUID="{B6B18916-8C9C-4BB1-BBC2-AC85794F19A5}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApKZJU5AVs0ya8OunfO2VeQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACSQJGHtd2PFX+0OvYdm0g9ABDZxQHxfHMr9y0UizEkDgAAAAAOgAAAAAIAACAAAACz+7mshe9LsPsfmYVsUYYcISnPm8Nmt9Uwj616CzqvcSAAAAC2myIhEg2A+36+WPQxcTODsgnXFYf714QRBq9F4WthtEAAAADZ4VlFSDM+Tx7V1YOZiPEbjzvwdinGpo7g2u6kAYDYrUBRKvuVYhV31K7PEoFeurHA4YxXoUr8z5oYp70xaVFz</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApKZJU5AVs0ya8OunfO2VeQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA+tcubQGoeIs9Lq9SZlcf6iauI5s8d1jZMI+wcLFk2pwAAAAAOgAAAAAIAACAAAADDC4Bor5DBgtizuwq26d5/p6fVeUlhg6MwABG/KK3v+CAAAABVgBQMBXiBI9RFA4Nn/m84jYtvJciDvCaAXcyNUe0F3kAAAACaVRSL/gqiVHM2moeyk0T//7KATcej2tk5Kp7lTYnIKIS7Gt3WcTKxG0zj3W67g3u8DpOZdeRtlZeRXL9doLwh</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -42,7 +42,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApKZJU5AVs0ya8OunfO2VeQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD7RLeQffZShzvOPe3R5vfJED7tn66gM48cQmjMWtjRsAAAAAAOgAAAAAIAACAAAACN0en9wn9z3i5Vx63zRMRbKDzCnr6WQAlq4sTrwvXMNyAAAABfQfTq16ABoqL3S49o3eTlUvsWXgbHIoJwLOkCeMbhcUAAAACoGMtwn0vvpY6u5ygz++LWMH8e04glj+iUhWMALhMaTaJZNnH5E19HhThBTGs++9U1aoaq8oqLvcOgri8eknXx</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApKZJU5AVs0ya8OunfO2VeQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABoz1arNQKDvAtkiaskHL4+NRmORf3JAfC6WghBNxx0RgAAAAAOgAAAAAIAACAAAACDPvj1Gy8nDxuonYoy70cMOYGXxm6wfFtjdJdcUem5DSAAAAB3rIoGZrgO/l89m5oRkrFxgVf1IEtRPNpYtid14Md6T0AAAADuQa+Elf/wUli+mDu1P1yhK9uMNIov5j+sH806xcF+yN4kNMg7zkZAl2/ByucHQbnytbK94l/sF+ueRMDym0ud</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -91,7 +91,6 @@
       DTS:refId="Package\Carga Fato 001"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{6733D7DB-8CD2-4F88-A686-39B84EA8E930}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1463,7 +1462,6 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
       DTS:refId="Package\Carga Fato 002"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{385a3441-ebff-4906-8895-6309b18f99f4}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -2429,7 +2427,6 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
       DTS:refId="Package\Carga Fato 003"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{f7a06659-acdd-41a1-9414-3c3a23bcc2eb}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -3215,7 +3212,6 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
       DTS:refId="Package\Carga Fato 004"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{8bb26953-3b6c-46c1-a3a8-60adbb009541}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -4181,7 +4177,6 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
       DTS:refId="Package\Carga Fato 005"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:Disabled="True"
       DTS:DTSID="{2df2bea8-8c6d-4ee9-9e32-ff95fb72260e}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -5236,14 +5231,6 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Carga Fato 001\Fato 001">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Carga Fato 001\Slowly Changing Dimension">
     <Properties>
       <Property>
@@ -5332,6 +5319,14 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
   &lt;DateVariable /&gt;
   &lt;EnableInferredSupport&gt;true&lt;/EnableInferredSupport&gt;
 &lt;/SCDWizardMetadata&gt;</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga Fato 001\Fato 001">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -5482,14 +5477,6 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Carga Fato 002\Fato 002">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Carga Fato 002\Slowly Changing Dimension">
     <Properties>
       <Property>
@@ -5548,6 +5535,14 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
   &lt;DateVariable /&gt;
   &lt;EnableInferredSupport&gt;true&lt;/EnableInferredSupport&gt;
 &lt;/SCDWizardMetadata&gt;</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga Fato 002\Fato 002">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -5698,14 +5693,6 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Carga Fato 003\Fato 003">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Carga Fato 003\Slowly Changing Dimension">
     <Properties>
       <Property>
@@ -5752,6 +5739,14 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
   &lt;DateVariable /&gt;
   &lt;EnableInferredSupport&gt;true&lt;/EnableInferredSupport&gt;
 &lt;/SCDWizardMetadata&gt;</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga Fato 003\Fato 003">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -5902,14 +5897,6 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Carga Fato 004\Fato 004">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Carga Fato 004\Slowly Changing Dimension">
     <Properties>
       <Property>
@@ -5968,6 +5955,14 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
   &lt;DateVariable /&gt;
   &lt;EnableInferredSupport&gt;true&lt;/EnableInferredSupport&gt;
 &lt;/SCDWizardMetadata&gt;</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga Fato 004\Fato 004">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
@@ -6118,14 +6113,6 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Carga Fato 005\Fato 005">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Carga Fato 005\Slowly Changing Dimension">
     <Properties>
       <Property>
@@ -6178,6 +6165,14 @@ AND MONTH(DATA_FATO) &lt;= ?</property>
   &lt;DateVariable /&gt;
   &lt;EnableInferredSupport&gt;true&lt;/EnableInferredSupport&gt;
 &lt;/SCDWizardMetadata&gt;</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga Fato 005\Fato 005">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
