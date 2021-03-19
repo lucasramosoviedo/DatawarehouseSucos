@@ -6,6 +6,38 @@
     <Name>OLAPSucos.database</Name>
     <FullPath>OLAPSucos.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Vendas.cube</Name>
+      <FullPath>Vendas.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Vendas.partitions</Name>
+          <FullPath>Vendas.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Custos.cube</Name>
+      <FullPath>Custos.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Custos.partitions</Name>
+          <FullPath>Custos.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Presidencia.cube</Name>
+      <FullPath>Presidencia.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Presidencia.partitions</Name>
+          <FullPath>Presidencia.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>Fábrica.dim</Name>
